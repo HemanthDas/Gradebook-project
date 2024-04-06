@@ -21,14 +21,17 @@
 }
 .h-grp {
   display: flex;
-  max-width: 500px;
+  max-width: 550px;
   align-items: center;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: center;
   > * {
     margin: 1px;
     display: flex;
+    h4 {
+      margin-left: 2px;
+    }
   }
 }
 button {
@@ -152,6 +155,9 @@ button {
   right: 10px;
   transform: translateY(-50%);
   pointer-events: none;
+}
+select {
+  color: black;
 }
 
 .sorting-options select:hover:after {

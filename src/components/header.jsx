@@ -1,12 +1,12 @@
 const Header = () => {
   const examInfo = {
-    title: "Sample Exam Title",
-    date: "April 10, 2024",
-    professor: "Dr. John Smith",
-    college: "Sample College",
-    department: "Computer Science",
-    semester: "Spring 2024",
-    group: "Group A",
+    title: "Gradebook project",
+    date: "April 6, 2024",
+    professor: "M Jogendra Kumar",
+    college: "KL University",
+    department: "Computer Science & Engineering - Honors",
+    semester: "6th Semester",
+    group: "DevOps/Front-end",
   };
 
   return (
