@@ -1,0 +1,159 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+#root {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+.header,
+.footer {
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  > h1 {
+    margin: 20px;
+  }
+}
+.h-grp {
+  display: flex;
+  max-width: 500px;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  > * {
+    margin: 1px;
+    display: flex;
+  }
+}
+button {
+  box-shadow: 1px solid black !important;
+}
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.student-table th,
+.student-table td {
+  padding: 12px;
+  border: 1px solid #dddddd;
+  text-align: left;
+}
+
+.student-table th {
+  background-color: #f2f2f2;
+}
+
+.student-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.student-table tr:hover {
+  background-color: #f2f2f2;
+}
+
+.student-table .clickable-row:hover {
+  cursor: pointer;
+}
+
+.student-table > * > tr > * {
+  padding: 15px;
+}
+.search-box {
+  font-size: 20px;
+  color: #495057;
+  background-color: transparent;
+  padding: 5px;
+}
+.statistics-block {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.statistics-block h2 {
+  font-size: 24px;
+  color: #343a40;
+  margin-bottom: 15px;
+}
+
+.statistics-block p {
+  font-size: 16px;
+  color: #495057;
+  margin-bottom: 10px;
+}
+
+.statistics-block .statistic-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.statistics-block .statistic-label {
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.statistics-block .statistic-value {
+  font-weight: bold;
+}
+
+.statistics-block .total-students {
+  color: #007bff;
+}
+
+.statistics-block .passed-students {
+  color: #28a745;
+}
+
+.statistics-block .failed-students {
+  color: #dc3545;
+}
+.pass {
+  background-color: #28a745;
+}
+.std-g {
+  color: white;
+}
+.fail {
+  background-color: #dc3545;
+}
+
+.sorting-options {
+  margin-top: 10px;
+}
+
+.sorting-options label {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.sorting-options select {
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 14px;
+}
+
+.sorting-options select:after {
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.sorting-options select:hover:after {
+  color: #333;
+}
